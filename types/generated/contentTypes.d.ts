@@ -845,7 +845,8 @@ export interface ApiComiteeComitee extends Schema.SingleType {
   info: {
     singularName: 'comitee';
     pluralName: 'comitees';
-    displayName: 'Comitee';
+    displayName: 'Committee';
+    description: '';
   };
   options: {
     draftAndPublish: true;
